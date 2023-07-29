@@ -4,6 +4,7 @@ html{
 }
 .scanim{
   animation:scan 0.7s forwards;
+  animation-delay: 0.3s;
 }
 @keyframes scan{
   0%{
@@ -94,6 +95,7 @@ nav{
   color:rgb(196, 194, 194);
 }
 #herosection{
+  filter:blur(10px);
   margin-left:5em;
   margin-top:13em;
   display:flex;
@@ -140,6 +142,7 @@ margin:2em;
   animation-direction:alternate-reverse;
 }
 .skill-section {
+  filter:blur(10px);
   background-color:rgba(0, 0, 0, 0.572);
   overflow:hidden;
   text-align:center;
@@ -277,6 +280,7 @@ margin:2em;
 }
 
 .project {
+  filter:blur(10px);
   background-color: rgba(0, 0, 0, 0.572);
   overflow: hidden;
   text-align: center;
@@ -326,6 +330,7 @@ margin:2em;
 /*contact section start */
 
 #contact {
+  filter:blur(10px);
   width: 166.5%;
   margin-top: 9em;
   padding-top: 2%;
@@ -425,7 +430,7 @@ footer {
     border: 0.5px solid;
 }
   html{
-    font-size:80%;
+    font-size:90%;
   }
 #herosection img{
   display:none;
@@ -439,14 +444,18 @@ footer {
 }
 .project{
   height:52em;
+  width:156%;
+  margin:94% 6%;
+
 }
 .project-card{
-  width:100%;
+  width:109%;
 }
-#herosection{
-  width:140%;
-  margin-left: 4em;
-    margin-top: 11em;
+#herosection {
+  width: 143%;
+  margin-left: 1em;
+  margin-top: 12em;
+  margin-bottom: 16em;
 }
 .skill-list{
   animation:none;
@@ -458,7 +467,9 @@ footer {
   transform: translateX(-100%);
 }
 .skill-section{
-  height:20em;
+  height:22em;
+  margin:30% 5%;
+  width:158%;
 }
 .pc-title{
   padding-top:13%;
