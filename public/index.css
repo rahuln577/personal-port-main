@@ -91,16 +91,19 @@ nav{
   transition:0.5s all ease-out;
 
 }
-#ham:hover .up{
-  transform:translateY(12px) rotate(-135deg);
+@media(hover:hover){
+  #ham:hover .up{
+    transform:translateY(12px) rotate(-135deg);
+  }
+  #ham:hover .mid{
+    transform:translateX(12px);
+    opacity:0;
+  }
+  #ham:hover .bottom{
+    transform:translateY(-12px) rotate(135deg);
+  }
 }
-#ham:hover .mid{
-  transform:translateX(12px);
-  opacity:0;
-}
-#ham:hover .bottom{
-  transform:translateY(-12px) rotate(135deg);
-}
+
 
 
 .pc a{
