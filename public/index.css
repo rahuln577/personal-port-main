@@ -1,10 +1,11 @@
 html{
   font-size:100%;
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 .scanim{
-  animation:scan 0.7s forwards;
-  animation-delay: 0.2s;
+  animation:scan 0.5s forwards;
+  animation-delay: 0.1s;
 }
 @keyframes scan{
   0%{
