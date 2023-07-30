@@ -12,6 +12,7 @@ function ProjectCard(props)
         setoverlay(false);
 
     }
+
     return <div className="project-card" onMouseOver={over} onMouseOut={out}>
         <div className={`overlay ${overlay?'overlay-down':'overlay-up'}`} id="ov">
             <p className="pctitle"><a href={props.github}><img src={github}></img></a></p>

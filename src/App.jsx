@@ -7,11 +7,18 @@ import ProjectCard from "./components/project-card"
 import ProjectSection from "./components/ProjectSection"
 import ContactSection from "./components/ContactSection"
 import Footer from "./components/Footer"
+import Hamenu from"./components/Hamenu"
 
 function App()
 {
+    let [click,setclick]=useState(false)
+    function clicked(){
+        setclick((prev)=>{
+            return(!prev)
+        })}
     return <div id="main">
-     <NavBar class="pc"/>   
+     <NavBar class="pc" onClick={clicked}/>
+     <Hamenu Click={click}/>   
     <Herosection/>
     <SkillSection />
     <ProjectSection/>
