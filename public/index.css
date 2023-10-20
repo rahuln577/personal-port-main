@@ -181,7 +181,7 @@ margin:2em;
 .skill-section {
   filter:blur(10px);
   background-color:rgba(0, 0, 0, 0.572);
-  border: 0.05em solid gray;
+  /*border: 0.05em solid gray;*/
     overflow:hidden;
   text-align:center;
   width: 130%;
@@ -266,7 +266,7 @@ margin:2em;
 .project-card {
   width: 27%;
   height: 18em;
-  border: 0.1em solid #9796966e;
+  /*border: 0.1em solid #9796966e;*/
   border-radius: 10%;
   overflow: hidden;
   margin-top: 2em;
