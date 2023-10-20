@@ -181,8 +181,7 @@ margin:2em;
 .skill-section {
   filter:blur(10px);
   background-color:rgba(0, 0, 0, 0.572);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(67 54 54 / 68%);
-  overflow:hidden;
+    overflow:hidden;
   text-align:center;
   width: 130%;
   height: 20em;
@@ -321,8 +320,7 @@ margin:2em;
 .project {
   filter:blur(10px);
   background-color: rgba(0, 0, 0, 0.572);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(67 54 54 / 68%);
-  overflow: hidden;
+    overflow: hidden;
   text-align: center;
   width: 131%;
   height: 28em;
