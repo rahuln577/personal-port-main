@@ -17,7 +17,7 @@ html{
   }
 }
 body{
-  background-color:black;
+  background-color: #0c0a0a;
   /*background-image:url('./star.jpg');*/
   background-size: 100em;
     background-repeat:repeat-y;
@@ -181,6 +181,7 @@ margin:2em;
 .skill-section {
   filter:blur(10px);
   background-color:rgba(0, 0, 0, 0.572);
+  border: 0.05em solid gray;
     overflow:hidden;
   text-align:center;
   width: 130%;
@@ -320,6 +321,7 @@ margin:2em;
 .project {
   filter:blur(10px);
   background-color: rgba(0, 0, 0, 0.572);
+  border: 0.05em solid gray;
     overflow: hidden;
   text-align: center;
   width: 131%;
