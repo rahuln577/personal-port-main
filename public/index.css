@@ -181,7 +181,7 @@ margin:2em;
 .skill-section {
   filter:blur(10px);
   background-color:rgba(0, 0, 0, 0.572);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(230, 224, 224, 0.606);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(67 54 54 / 68%);
   overflow:hidden;
   text-align:center;
   width: 130%;
@@ -189,6 +189,16 @@ margin:2em;
   margin: 30% 18%;
   padding-top:1em;
   border-radius:2em;
+  animation: bor 3s infinite;
+  animation-direction:alternate-reverse;
+}
+@keyframes bor{
+  from{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(67 54 54 / 68%)
+  }
+  to{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(147 136 136 / 68%);
+  }
 }
 .skill-section p{
   font-size:1.3rem;
