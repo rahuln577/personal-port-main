@@ -23,7 +23,7 @@ function Herosection()
     <p id="helper">I am a full stack web developer with expertise in MERN stack.
         I have also solved a good amount of dsa problems on various platforms . I am a smart worker who would like to put my best in the work I am given . To know more about me ,click the below link.
     </p>
-    <a id="resume" href="https://drive.google.com/file/d/1jJKrkzuKMFpVXLyEqAYlnnXH6MATZGD_/view">Download CV</a></div>
+    <a id="resume" href="https://drive.google.com/file/d/1N2nkelaB7gBCqM01J9nDKL5j0ZckAK5t/view?usp=sharing">Download CV</a></div>
     <img src={require("./../images/dev.png")}></img>
     </div>
 }
